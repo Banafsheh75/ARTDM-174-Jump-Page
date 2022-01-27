@@ -3,8 +3,11 @@
 }
 
 body{
+
+    margin: 0;
+    padding: 0;
     background-color: #dddeff;
-    font-family:'Lucida Grande', verdana, sans-serif;
+    font-family: verdana, sans-serif;
 }
 
 .projects li{
@@ -13,8 +16,19 @@ body{
     padding: 10px;
     width: 12rem;
     height: 12rem;
-    display: inline-block;
 }
-.projects ol{
+ol{
+    padding:0;
     list-style: none;
+}
+
+@media screen and (min-width: 600px) {
+    body{
+        display: grid;
+        grid-template-columns: 1fr 200px;
+        grid-template-rows: 100px 1fr 100px;
+    }
+    header, footer{
+        grid-column: 1/3;
+    }
 }
