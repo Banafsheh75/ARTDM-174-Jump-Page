@@ -9,6 +9,7 @@ body{
  }
  p{
      color:#026670;
+     line-height: 1.6em;
  }
  a{
     text-decoration-color: #026670;
@@ -72,7 +73,7 @@ main{
     margin: 10px;
     padding: 10px;
     width: 12rem;
-    height: 16rem;
+    height: 17rem;
 }
 
 
@@ -81,8 +82,8 @@ main{
         border: 5px solid #65998a;
         margin: 15px;
         padding: 15px;
-        width: 17rem;
-        height: 20rem;
+        width: 18rem;
+        height: 21rem;
     }
     body{
         display: grid;
